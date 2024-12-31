@@ -1,0 +1,11 @@
+[package]
+name = "guildmaster_map"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+bevy = "0.15.0"
+delaunator = "1.0.2" # triangulation
+voronoice = "0.1.0"
+rand = "0.8.5"
